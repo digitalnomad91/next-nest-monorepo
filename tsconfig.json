@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/forms/*": ["forms/*"],
+      "@/pages/*": ["pages/*"],
+      "@/server/*": ["server/*"],
+      "@/public/*": ["public/*"],
+      "@/prisma/*": ["prisma/*"],
+    },
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "typeRoots": [
+      "./src/@types",
+      "./node_modules/@types"
+    ],
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/_app.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
