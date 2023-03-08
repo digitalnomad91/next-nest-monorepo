@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@nestjs/common": "^8.4.1",
-    "@nestjs/core": "^8.4.1",
+    "@nestjs/core": "^9.0.5",
     "@nestjs/platform-express": "^8.4.1",
     "@next-auth/prisma-adapter": "^1.0.3",
     "@prisma/client": "^3.11.0",
